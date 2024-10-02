@@ -1,0 +1,84 @@
+/* 00_site.css - SiteWide Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: October 1st 2024 */
+
+
+/* Heading Format */  
+html {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  /* Body Format */
+  body {
+    margin: 2.5%;
+    background-color: #000010;
+  }
+  
+  
+  /* Link Border Format */
+  .linkBorder {
+    margin-left: 7vw;
+    margin-bottom: 5vh;
+    width: 80vw;
+    height: 10vh; 
+  /* border: style size color */
+    border: solid .01em #000000;
+    background-color: #1c00cf;
+    /* Flex Used to Center Link Button Border*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  /* Link Font Format */
+  .link {
+    width: 20vw;
+    height: 5vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8vw;
+    border: solid .01em #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  /* Translate Border Format */
+  .translateBorder {
+    margin-left: 7vw;
+    margin-bottom: 5vh;
+    width: 10vw;
+    height: 10vh; 
+  /* border: style size color */
+    border: solid .01em #000000;
+    background-color: #1c00cf;
+    /* Flex Used to Center Link Button Border*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  /* Link Font Format */
+  .translate {
+    width: 7vw;
+    height: 5vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8vw;
+    border: solid .01em #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  
+  /* Text Format */
+  .text {
+    margin-left: 7vw;
+    color:aliceblue;
+    font-size: 1.3vw; 
+    word-spacing: 0.25vw;
+    width: 90%;
+    height: auto;
+    /* Includes Padding width/height */
+    box-sizing: border-box; 
+  }
