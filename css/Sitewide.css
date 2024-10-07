@@ -1,4 +1,4 @@
-/* 00_site.css - SiteWide Stylesheet
+/* Sitewide.css - SiteWide Stylesheet
    Author: Sho Serrano (shojapan627@gmail.com)
    Date: October 1st 2024 */
 
@@ -11,74 +11,97 @@ html {
   
   /* Body Format */
   body {
-    margin: 2.5%;
+    margin: 0;
     background-color: #000010;
+    display: grid;
   }
   
   
   /* Link Border Format */
   .linkBorder {
-    margin-left: 7vw;
-    margin-bottom: 5vh;
-    width: 80vw;
-    height: 7vh; 
-  /* border: style size color */
-    border: solid .01em #000000;
-    background-color: #1c00cf;
     /* Flex Used to Center Link Button Border*/
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-sizing: border-box;
+    margin: none; 
+    margin-bottom: calc(20px + 1.5vh);
+    min-height: calc(10px + 5vh);    
+    height: auto;
+    width: auto; 
+  /* border: style size color */
+    border: solid .01em #000000;
+    background-color: #1a2a43;
+    /* Flex Used to Center Link Button Border*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
   }
   
   
   /* Link Font Format */
   .link {
     width: 20vw;
-    height: 5vh;
+    height: auto;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8vw;
-    border: solid .01em #000000;
-    background-color: #ffffff;
+    font-size: calc(10px + 1.5vw);
+    color:aliceblue;
+    border: none;
+    background-color: #1a2a43;
     cursor: pointer;
+    border-radius: 20%;
+  }
+
+  .link-3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(10px + 1.5vw);
+    cursor: pointer;
+    border: solid .05em aliceblue;
+    border-radius: 10px;
   }
 
   /* Translate Border Format */
   .translateBorder {
-    margin-left: 7vw;
-    margin-bottom: 5vh;
-    width: 9vw;
-    height: 7vh; 
+    margin: none;
+    margin-bottom: calc(20px + 1.5vh);
+    max-width:12vw;
+    width: calc(12px + 9vw);
+    height: calc(12px + 7vh); 
   /* border: style size color */
     border: solid .01em #000000;
-    background-color: #1c00cf;
+    background-color: #1a2a43;
     /* Flex Used to Center Link Button Border*/
-    display: flex;
     justify-content: space-around;
+    align-items: center;
+    border-radius: 0%;
+    place-items: center;
+    display: flex;  /* Keep Flexbox here to center the buttons inside the border */
+    justify-content: space-around; 
     align-items: center;
   }
   
   
   /* Link Font Format */
   .translate {
-    min-width: 5vw;
-    min-height: 5vh;
+    color: aliceblue;
+    min-width: calc(10px + 7vw);
+    min-height: calc(10px + 5vh);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8vw;
-    border: solid .01em #000000;
-    background-color: #ffffff;
+    font-size: calc(10px + 1.5vw);
+    border: none;
+    background-color: #1a2a43;
     cursor: pointer;
+    border: solid .05em aliceblue;
+    border-radius: 10%;
   }
   
   
   /* Text Format */
   .text {
-    margin-left: 7vw;
-    color:aliceblue;
-    font-size: 1.3vw; 
+    color: aliceblue;
+    font-size: calc(10px + 1.5vw);
     word-spacing: 0.25vw;
-    width: 90%;
-    height: auto;
+    margin: 1%;
     /* Includes Padding width/height */
-    box-sizing: border-box; 
   }
