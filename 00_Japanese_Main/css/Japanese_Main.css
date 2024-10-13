@@ -10,7 +10,7 @@
 }
 
 .image {
-    min-width: 80vw;
+    width: 80vw;
     max-height: auto;
 }
 

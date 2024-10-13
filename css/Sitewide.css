@@ -41,12 +41,13 @@ html {
   
   .logo {
     width: auto;
-    height:auto;
+    height: auto;
     min-height: calc(10px + 5vh);
     border: none;
     background-image: url(../img/Logo.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
     background-color: #1a2a43;
   }
 
