@@ -15,7 +15,7 @@
 }
 
 .link {
-    width: 20vw;
+    width: 25vw;
     height: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: calc(5px + 1vw);
@@ -29,6 +29,7 @@
 .text {
     display: flex;
     justify-content: center;
+    font-size: calc(5px + 1vw);
 }
 
 
