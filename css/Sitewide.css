@@ -30,7 +30,7 @@ html {
     height: auto;
     width: auto; 
   /* border: style size color */
-    border: solid .01em #000000;
+    border: none;
     background-color: #1a2a43;
     /* Flex Used to Center Link Button Border*/
     display: flex;
@@ -39,7 +39,17 @@ html {
     box-sizing: border-box;
   }
   
-  
+  .logo {
+    width: auto;
+    height:auto;
+    min-height: calc(10px + 5vh);
+    border: none;
+    background-image: url(../img/Logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1a2a43;
+  }
+
   /* Link Font Format */
   .link {
     width: 20vw;
