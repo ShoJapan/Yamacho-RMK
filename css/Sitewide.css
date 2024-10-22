@@ -44,7 +44,7 @@ html {
     height: auto;
     min-height: calc(10px + 5vh);
     border: none;
-    background-image: url(../img/Logo.jpg);
+    background-image: url(../img/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -114,5 +114,6 @@ html {
     font-size: calc(10px + 1.5vw);
     word-spacing: 0.25vw;
     margin: 1%;
+    justify-self: center;
     /* Includes Padding width/height */
   }

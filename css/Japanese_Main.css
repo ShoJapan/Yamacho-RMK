@@ -10,8 +10,9 @@
 }
 
 .image {
-    width: 80vw;
-    max-height: auto;
+    height: 50vh;
+    max-width: auto;
+    cursor: pointer;
 }
 
 .link {
