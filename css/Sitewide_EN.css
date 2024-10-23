@@ -104,7 +104,7 @@ html {
   /* Text Format */
   .text {
     color: aliceblue;
-    font-size: calc(10px + 1.5vw);
+    font-size: calc(10px + 1vw);
     word-spacing: 0.25vw;
     margin: 1%;
     justify-self: center;
