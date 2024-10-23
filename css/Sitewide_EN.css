@@ -13,6 +13,7 @@ html {
   body {
     margin: 0;
     background-color: #000010;
+    color: aliceblue;
     display: grid;
   }
   
@@ -53,23 +54,15 @@ html {
 
   /* Link Font Format */
   .link {
-    width: 20vw;
+    width: 25vw;
     height: auto;
     font-family: 'Times New Roman', Times, serif;
-    font-size: calc(10px + 1.5vw);
+    font-size: calc(10px + 1vw);
     color:aliceblue;
     border: none;
     background-color: #1a2a43;
     cursor: pointer;
     border-radius: 20%;
-  }
-
-  .link-3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: calc(9px + 1vw);
-    cursor: pointer;
-    border: solid .05em aliceblue;
-    border-radius: 10px;
   }
 
   /* Translate Border Format */

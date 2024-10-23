@@ -15,22 +15,5 @@
     cursor: pointer;
 }
 
-.link {
-    width: 25vw;
-    height: auto;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: calc(5px + 1vw);
-    color:aliceblue;
-    border: none;
-    background-color: #1a2a43;
-    cursor: pointer;
-    border-radius: 20%;
-  }
-
-.text {
-    display: flex;
-    justify-content: center;
-    font-size: calc(5px + 1vw);
-}
 
 

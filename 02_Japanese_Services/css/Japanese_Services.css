@@ -1,0 +1,30 @@
+.border {
+    background-color: #1a2a43;
+    color:aliceblue;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-self: baseline; 
+    align-content: center;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+    padding: 5px;
+}
+
+.heading {
+    padding: 5px;
+    border: solid .05em aliceblue;
+    background-color: #1a2a43;
+    color:aliceblue;
+    min-width: 80vw;
+    max-height: 10vh;
+    display: flex;
+    justify-self: baseline; 
+    font-size: calc(10px + .5vw);
+    margin-left: 1vw;
+}
+
+p {
+    line-height: 1.6;
+}

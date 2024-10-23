@@ -1,0 +1,77 @@
+/* Sitewide.css - SiteWide Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: October 22nd 2024 */
+
+
+/* Heading Format */  
+html {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  /* Body Format */
+  body {
+    margin: 0;
+    background-color: #000010;
+    color: aliceblue;
+    display: grid;
+  }
+  
+  
+  /* Link Border Format */
+  .linkBorder {
+    /* Flex Used to Center Link Button Border*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin: none; 
+    margin-bottom: calc(20px + 1.5vh);
+    min-height: calc(10px + 5vh);    
+    height: auto;
+    width: auto; 
+  /* border: style size color */
+    border: none;
+    background-color: #1a2a43;
+    /* Flex Used to Center Link Button Border*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    width: auto;
+    height: auto;
+    min-height: calc(10px + 5vh);
+    border: none;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #1a2a43;
+  }
+
+  /* Link Font Format */
+  .link {
+    width: 25vw;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(5px + 1vw);
+    color:aliceblue;
+    border: none;
+    background-color: #1a2a43;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  
+  
+  /* Text Format */
+  .text {
+    color: aliceblue;
+    font-size: calc(5px + 1vw);
+    word-spacing: 0.25vw;
+    margin: 1%;
+    justify-self: center;
+    /* Includes Padding width/height */
+  }
