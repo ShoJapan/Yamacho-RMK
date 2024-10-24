@@ -42,15 +42,13 @@
   
   .logo {
     width: auto;
-    height: auto;
-    min-height: calc(10px + 5vh);
+    height: calc(10px + 7vh);
     border: none;
     margin: none;
-    background-image: url(../img/logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     background-color: #1a2a43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Link Font Format */
@@ -75,3 +73,10 @@
     justify-self: center;
     /* Includes Padding width/height */
   }
+
+  .logoImage {
+    margin-top: 2vh;
+    height: 8vh;
+    width: auto;
+  }
+

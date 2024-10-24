@@ -4,10 +4,9 @@
     width: 80vw;
     height: auto;
     display: flex;
-    justify-self: baseline; 
+    justify-self: center; 
     align-content: center;
     flex-direction: column;
-    margin-left: 1vw;
     margin-bottom: 3vh;
     padding: 5px;
     font-size: calc(5px + .5vw);
@@ -21,9 +20,8 @@
     min-width: 80vw;
     max-height: 10vh;
     display: flex;
-    justify-self: baseline; 
+    justify-self: center; 
     font-size: calc(10px + .5vw);
-    margin-left: 1vw;
 }
 
 p {
