@@ -13,3 +13,18 @@ h1 {
 h2 {
     margin: none;
 }
+
+section, header, footer {
+    margin-left: 20px;
+    margin-bottom: none;
+    padding: 20px;
+    background-color: #1a2a43;
+    width: 80vw;
+    justify-self: center;
+    border-bottom:solid .01em aliceblue;
+}
+
+footer {
+    border: none;
+    margin-bottom: calc(5px + 3vh);
+}

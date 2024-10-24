@@ -15,5 +15,17 @@
     cursor: pointer;
 }
 
+section, header, footer {
+    min-width: 80vw;
+    margin-bottom: none;
+    padding: 20px;
+    background-color: #1a2a43;
+    justify-self: center;
+    border-bottom:solid .01em aliceblue;
+}
+
+footer {
+    border: none;
+}
 
 

@@ -106,7 +106,6 @@ html {
     color: aliceblue;
     font-size: calc(10px + 0.5vw);
     word-spacing: 0.25vw;
-    margin: 1%;
     justify-self: center;
     /* Includes Padding width/height */
   }
