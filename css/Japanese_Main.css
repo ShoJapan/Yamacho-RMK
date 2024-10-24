@@ -10,7 +10,7 @@
 }
 
 .image {
-    width: calc(30px + 60vw);
+    width: 70vw;
     max-height: auto;
     cursor: pointer;
 }
