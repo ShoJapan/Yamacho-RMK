@@ -42,7 +42,7 @@
   
   .logo {
     width: auto;
-    height: calc(10px + 7vh);
+    height: calc(5px + 8vh);
     border: none;
     margin: none;
     background-color: #1a2a43;
@@ -75,7 +75,7 @@
   }
 
   .logoImage {
-    margin-top: 2vh;
+    margin-top: 1vh;
     height: 8vh;
     width: auto;
   }
