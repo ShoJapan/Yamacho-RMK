@@ -21,3 +21,13 @@ footer {
     border: none;
     margin-bottom: calc(5px + 3vh);
 }
+
+.profileHeader {
+    display: flex;
+    height:7vh;
+    justify-content: space-between;
+}
+
+.profileImage {
+    height: 11vh;
+}

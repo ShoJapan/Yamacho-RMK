@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     object-fit: contain;
+    margin-bottom: calc(20px + 1.5vh);
 }
 
 .image {
@@ -16,16 +17,32 @@
 }
 
 section, header, footer {
-    min-width: 80vw;
+    min-width: 90vw;
     margin-bottom: none;
-    padding: 20px;
     background-color: #1a2a43;
     justify-self: center;
     border-bottom:solid .01em aliceblue;
 }
 
-footer {
-    border: none;
+header {
+    margin-top: calc(20px + 1.5vh);
 }
 
+footer {
+    border: none;
+    margin-bottom: calc(5px + 3vh);
+}
+
+.advertise {
+    color: aliceblue;
+    font-size: calc(5px + 0.75vw);
+    word-spacing: 0.25vw;
+    /* Includes Padding width/height */
+  }
+
+  .goTo {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+  }
 
