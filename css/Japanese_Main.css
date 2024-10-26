@@ -17,7 +17,7 @@
 }
 
 section, header, footer {
-    min-width: 90vw;
+    width: 90vw;
     margin-bottom: none;
     background-color: #1a2a43;
     justify-self: center;
@@ -46,3 +46,8 @@ footer {
     padding: 1%;
   }
 
+  .heading {
+    color: aliceblue;
+    font-size: calc(7px + 1vw);
+    word-spacing: 0.25vw;
+  }
