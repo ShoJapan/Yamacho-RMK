@@ -53,12 +53,12 @@ footer {
   }
 
   .icon {
-    width: 25%;
+    width: 400%;
     height: 100%;
     border-radius: 10%;
   }
 
   .iconLink {
-    width: calc(20px+1vw);
+    width: calc(1vw);
     height: calc(10px+1vh);
   }
