@@ -51,3 +51,14 @@ footer {
     font-size: calc(7px + 1vw);
     word-spacing: 0.25vw;
   }
+
+  .icon {
+    width: 25%;
+    height: 100%;
+    border-radius: 10%;
+  }
+
+  .iconLink {
+    width: calc(10px+1vw);
+    height: calc(10px+1vh);
+  }

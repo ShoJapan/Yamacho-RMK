@@ -35,6 +35,9 @@
 .menuImage {
     width: calc(80px + 16vw);
     height: 20vh;
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
 .text {
