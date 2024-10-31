@@ -1,93 +1,89 @@
 <!-- index.html - HTML for Japanese Mainpage
-     Author: Sho Serrano (shojapan627@gmail.com)
-     Date: October 1st 2024 -->
+Author: Sho Serrano (shojapan627@gmail.com) -->
 
+<!DOCTYPE html>
 
-     <!DOCTYPE html>
-
-
-     <html>
+<html>
+  <head>  
+    <!-- UTF Character Set -->
+    <meta charset = "UTF-8" />
+    <!-- Set Viewport -->
+    <meta name = "viewport"    content = "width = device-width, initial-scale = 1.0" />
           
-       <head>
-                  
-         <!-- UTF Character Set -->
-         <meta charset = "UTF-8" />
-         <!-- Set Viewport -->
-         <meta name = "viewport"    content = "width = device-width, initial-scale = 1.0" />
+    <!-- Link CSS (SiteWide) -->
+    <link rel = "stylesheet"    type = "text/css"   href = "css/Sitewide_JP.css">
+    <!-- Link CSS (SiteSpecific) -->
+    <link rel = "stylesheet"    type = "text/css"   href = "css/Japanese_Main.css">
+    <!-- Favicon -->
+    <link rel = "icon"  href = "img/logo.png"  type = "image/png">
           
-         <!-- Link CSS (SiteWide) -->
-         <link rel = "stylesheet"    type = "text/css"   href = "css/Sitewide_JP.css">
-         <!-- Link CSS (SiteSpecific) -->
-         <link rel = "stylesheet"    type = "text/css"   href = "css/Japanese_Main.css">
-         <!-- Favicon -->
-         <link rel = "icon"  href = "img/logo.png"  type = "image/png">
+    <!-- Load jQuery -->
+    <script src = "https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+    <!-- Link Java File -->
+    <script type = "text/javascript"   src = "java/Japanese_Main.js" DEFER></script>
           
-         <!-- Load jQuery -->
-         <script src = "https://code.jquery.com/jquery-3.7.1.min.js"> </script>
-         <!-- Link Java File -->
-         <script type = "text/javascript"   src = "java/Japanese_Main.js" DEFER></script>
-          
-         <!-- Title for Tabs/Bookmarks -->
-         <title> Home </title>
-          
-       </head>
+    <!-- Title for Tabs/Bookmarks -->
+    <title> ホーム </title> 
+  </head>
      
-       
-       <body>
-        <div class = "logo"> 
-          <img src = "img/logo.png" class = "logoImage"/> 
-        </div>
+  <body>
+    <div class = "logo"> 
+      <img src = "img/logo.png" class = "logoImage"/> 
+    </div>
       
-         <div class = "linkBorder">
-           <a href = "01_Japanese_Menu/index.html"> <button class = "link link-0"> メニュー </button> </a>
-           <a href = "02_Japanese_Services/index.html"> <button class = "link link-1"> サービス </button> </a>
-           <a href = "03_Japanese_About/index.html"> <button class = "link link-2"> 会社概要 </button> </a>
-           <a href = "0_English_Main/index.html"> <button class = "link link-3"> English </button> </a>
-         </div>
+    <div class = "linkBorder">
+      <a href = "01_Japanese_Menu/index.html"> <button class = "link link-0"> メニュー </button> </a>
+      <a href = "02_Japanese_Service/index.html"> <button class = "link link-1"> サービス </button> </a>
+      <a href = "03_Japanese_About/index.html"> <button class = "link link-2"> 会社概要 </button> </a>
+      <a href = "0_English_Main/index.html"> <button class = "link link-3"> English </button> </a>
+    </div>
 
-        <!-- div class = "translateBorder">
-          <a href = "00_Japanese_Main/index.html"> <button class = "translate"> 日本語 </button> </a>
-        </div -->
+    <!-- div class = "translateBorder">
+    <a href = "00_Japanese_Main/index.html"> <button class = "translate"> 日本語 </button> </a>
+    </div -->
         
-        <div class = "imageBorder">
-          <a href = "01_Japanese_Menu/index.html">
-            <img src = "img/catering.png" class = "image"/> 
-          </a>
-        </div> 
+    <div class = "imageBorder">
+      <a href = "01_Japanese_Menu/index.html">
+        <img src = "img/catering.png" class = "image"/> 
+      </a>
+    </div> 
         
-        <header>
-          <p class = "heading">&nbsp;多種多様のサービス</p>
-        </header>
-        <footer>
-          <p class = "advertise"> <strong>&nbsp;ケータリング、ビジネスサポート、祭事などの多種多様の仕事を受け付け得てます!</strong></p>
-          <div class = "goTo">
-            <p class = "advertise"> (電話/Eメール :&nbsp;(310) 857-2060&nbsp;/&nbsp;<a href="mailto:info@yamachormk.com"> info@yamachormk.com </a>) <br>
-            [ケータリングなどのオーダーは数日前にご相談ください。]</p>
-            <a href = "02_Japanese_Services/index.html"> <p class = "advertise"> 詳細はこちら➡</p> </a>
-            </div>
-        </footer>
+    <header>
+      <p class = "heading">&nbsp;多種多様のサービス</p>
+    </header>
+    <footer>
+      <p class = "advertise"> <strong>&nbsp;ケータリング、ビジネスサポート、祭事などの多種多様の仕事を受け付け得てます!</strong></p>
+      <div class = "goTo">
+        <p class = "advertise"> (電話/Eメール :&nbsp;(310) 857-2060&nbsp;/&nbsp;<a href="mailto:info@yamachormk.com"> info@yamachormk.com </a>) <br>
+        [ケータリングなどのオーダーは数日前にご相談ください。]</p>
+        <a href = "02_Japanese_Service/index.html"> <p class = "advertise"> 詳細はこちら➡</p> </a>
+      </div>
+    </footer>
 
-        <header>
-          <p class = "heading">&nbsp;豊富なメニュー</p>
-        </header>
-        <footer>
-          <p class = "advertise"> <strong>&nbsp;お弁当からお魚まで、おいしい料理をたくさん提供しています!</strong></p>
-          <div class = "goTo">
-            <a href="https://www.grubhub.com/restaurant/yamacho-rmk-3525-w-carson-st-suite-164-torrance/2358447" class = "iconLink" target = "_blank" rel = "noopener" rel = "noreferrer"> <img src="img/grubhub.png" class = "icon" /> </a>
-            <a href="https://www.doordash.com/en-CA/store/yamacho-rmk-torrance-953843/?srsltid=AfmBOoq99_tQLSFhj_VByGHYHeLldiTbbbWh1KLjXpmotdjwxVgIU8O3" class = "iconLink" target = "_blank" rel = "noopener" rel = "noreferrer"> <img src="img/doordash.png" class = "icon" /> </a>
-            <a href = "01_Japanese_Menu/index.html"> <span class = "advertise advertise-1"> 詳細はこちら➡</span> </a>
-          </div>
-        </footer>
+    <header>
+      <p class = "heading">&nbsp;豊富なメニュー</p>
+    </header>
+    <footer>
+      <p class = "advertise"> <strong>&nbsp;お弁当からお魚まで、おいしい料理をたくさん提供しています!</strong></p>
+      <div class = "goTo">
+        <a href="https://www.grubhub.com/restaurant/yamacho-rmk-3525-w-carson-st-suite-164-torrance/2358447" class = "iconLink" target = "_blank" rel = "noopener" rel = "noreferrer"> 
+          <img src="img/grubhub.png" class = "icon" /> 
+        </a>
+        <a href="https://www.doordash.com/en-CA/store/yamacho-rmk-torrance-953843/?srsltid=AfmBOoq99_tQLSFhj_VByGHYHeLldiTbbbWh1KLjXpmotdjwxVgIU8O3" class = "iconLink" target = "_blank" rel = "noopener" rel = "noreferrer"> 
+          <img src="img/doordash.png" class = "icon" /> 
+        </a>
+        <a href = "01_Japanese_Menu/index.html"> <span class = "advertise advertise-1"> 詳細はこちら➡</span> </a>
+      </div>
+    </footer>
 
-        <header>
-          <p class = "heading">&nbsp;会社の歴史</p>
-        </header>
-        <footer>
-          <p class = "advertise"> <strong>&nbsp;北海道・函館をルーツに持つ山丁をもっと知ろう!</strong></p>
-          <div class = "goTo">
-            <a href = "03_Japanese_About/index.html"> <p class = "advertise"> 詳細はこちら➡</p> </a>
-            </div>
-        </footer>
-  
-
-       </body>
+    <header>
+      <p class = "heading">&nbsp;会社の歴史</p>
+    </header>
+    <footer>
+      <p class = "advertise"> <strong>&nbsp;北海道・函館をルーツに持つ山丁をもっと知ろう!</strong></p>
+      <div class = "goTo">
+        <a href = "03_Japanese_About/index.html"> <p class = "advertise"> 詳細はこちら➡</p> </a>
+      </div>
+    </footer>
+  </body>
+</html>

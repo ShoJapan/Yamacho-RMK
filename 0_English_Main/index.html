@@ -1,60 +1,89 @@
 <!-- index.html - HTML for English Mainpage
-     Author: Sho Serrano (shojapan627@gmail.com)
-     Date: October 1st 2024 -->
+Author: Sho Serrano (shojapan627@gmail.com) -->
 
+<!DOCTYPE html>
 
-     <!DOCTYPE html>
-
-
-     <html>
+<html>
+  <head>  
+    <!-- UTF Character Set -->
+    <meta charset = "UTF-8" />
+    <!-- Set Viewport -->
+    <meta name = "viewport"    content = "width = device-width, initial-scale = 1.0" />
           
-       <head>
-                  
-         <!-- UTF Character Set -->
-         <meta charset = "UTF-8" />
-         <!-- Set Viewport -->
-         <meta name = "viewport"    content = "width = device-width, initial-scale = 1.0" />
+    <!-- Link CSS (SiteWide) -->
+    <link rel = "stylesheet"    type = "text/css"   href = "../css/Sitewide_EN.css">
+    <!-- Link CSS (SiteSpecific) -->
+    <link rel = "stylesheet"    type = "text/css"   href = "css/English_Main.css">
+    <!-- Favicon -->
+    <link rel = "icon"  href = "../img/logo.png"  type = "image/png">
           
-         <!-- Link CSS (SiteWide) -->
-         <link rel = "stylesheet"    type = "text/css"   href = "../css/Sitewide_EN.css">
-         <!-- Link CSS (SiteSpecific) -->
-         <link rel = "stylesheet"    type = "text/css"   href = "css/English_Main.css">
-         <!-- Favicon -->
-         <link rel = "icon"  href = "img/logo.png"  type = "image/png">
+    <!-- Load jQuery -->
+    <script src = "https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+    <!-- Link Java File -->
+    <script type = "text/javascript"   src = "java/English_Main.js" DEFER></script>
           
-         <!-- Load jQuery -->
-         <script src = "https://code.jquery.com/jquery-3.7.1.min.js"> </script>
-         <!-- Link Java File -->
-         <script type = "text/javascript"   src = "java/English_Main.js" DEFER></script>
-          
-         <!-- Title for Tabs/Bookmarks -->
-         <title> Home </title>
-          
-       </head>
+    <!-- Title for Tabs/Bookmarks -->
+    <title> ホーム </title> 
+  </head>
      
-       
-       <body>
-        <div class = "logo"> </div>
+  <body>
+    <div class = "logo"> 
+      <img src = "../img/logo.png" class = "logoImage"/> 
+    </div>
       
-         <div class = "linkBorder">
-           <a href = "../1_English_Menu/index.html"> <button class = "link link-0"> Menu </button> </a>
-           <a href = "../2_English_Services/index.html"> <button class = "link link-1"> Services </button> </a>
-           <a href = "../3_English_About/index.html"> <button class = "link link-2"> About </button> </a>
-           <a href = "../index.html"> <button class = "link link-3"> 日本語 </button> </a>
-         </div>
+    <div class = "linkBorder">
+      <a href = "../1_English_Menu/index.html"> <button class = "link link-0"> Menu </button> </a>
+      <a href = "../2_English_Service/index.html"> <button class = "link link-1"> Service </button> </a>
+      <a href = "../3_English_About/index.html"> <button class = "link link-2"> About </button> </a>
+      <a href = "../index.html"> <button class = "link link-3"> 日本語 </button> </a>
+    </div>
 
-        <!-- div class = "translateBorder">
-          <a href = "00_Japanese_Main/index.html"> <button class = "translate"> 日本語 </button> </a>
-        </div -->
+    <!-- div class = "translateBorder">
+    <a href = "00_Japanese_Main/index.html"> <button class = "translate"> 日本語 </button> </a>
+    </div -->
+        
+    <div class = "imageBorder">
+      <a href = "01_Japanese_Menu/index.html">
+        <img src = "../img/catering.png" class = "image"/> 
+      </a>
+    </div> 
+        
+    <header>
+      <p class = "heading">&nbsp;Various Services</p>
+    </header>
+    <footer>
+      <p class = "advertise"> <strong>&nbsp;Catering、Buisness Support、and Event Exhibition We Offer a Variety of Services!</strong></p>
+      <div class = "goTo">
+        <p class = "advertise"> (Phone/E-mail :&nbsp;(310) 857-2060&nbsp;/&nbsp;<a href="mailto:info@yamachormk.com"> info@yamachormk.com </a>) <br>
+        [Catering and Big Orders must be made days in advanced.]</p>
+        <a href = "../2_English_Service/index.html"> <p class = "advertise"> Details ➔</p> </a>
+      </div>
+    </footer>
 
-        <div class = "imageBorder">
-          <a href = "../2_English_Services/index.html">
-           <img src = "../img/catering.png" class = "image"/> 
-          </a> 
-        </div>
+    <header>
+      <p class = "heading">&nbsp;A Bountiful Menu</p>
+    </header>
+    <footer>
+      <p class = "advertise"> <strong>&nbsp;From Bentos to Fish, We Provide Many Delicopus Meals!</strong></p>
+      <div class = "goTo">
+        <a href="https://www.grubhub.com/restaurant/yamacho-rmk-3525-w-carson-st-suite-164-torrance/2358447" class = "iconLink" target = "_blank" rel = "noopener" rel = "noreferrer"> 
+          <img src="../img/grubhub.png" class = "icon" /> 
+        </a>
+        <a href="https://www.doordash.com/en-CA/store/yamacho-rmk-torrance-953843/?srsltid=AfmBOoq99_tQLSFhj_VByGHYHeLldiTbbbWh1KLjXpmotdjwxVgIU8O3" class = "iconLink" target = "_blank" rel = "noopener" rel = "noreferrer"> 
+          <img src="../img/doordash.png" class = "icon" /> 
+        </a>
+        <a href = "../1_English_Menu/index.html"> <span class = "advertise advertise-1"> Details ➔</span> </a>
+      </div>
+    </footer>
 
-        <p class = "text"> Ordering and Catering is available! </p>
-        <p class = "text"> (Phone/E-mail :&nbsp;(310) 857-2060&nbsp;/ <a href="mailto:info@yamachormk.com"> info@yamachormk.com </a>) </p>
-        <p class = "text"> [Big plate orders and Catering must be ordered days in advance.]</p>  
-
-       </body>
+    <header>
+      <p class = "heading">&nbsp;Our History</p>
+    </header>
+    <footer>
+      <p class = "advertise"> <strong>&nbsp;Learn More About Our Hokkaido・Hakodate Roots!</strong></p>
+      <div class = "goTo">
+        <a href = "../3_English_About/index.html"> <p class = "advertise"> Details ➔</p> </a>
+      </div>
+    </footer>
+  </body>
+</html>

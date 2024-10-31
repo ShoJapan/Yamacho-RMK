@@ -1,0 +1,35 @@
+h1 {
+    margin: none;
+}
+
+h2 {
+    margin: none;
+}
+
+section, header, footer {
+    margin-bottom: none;
+    padding: 20px;
+    background-color: #1a2a43;
+    width: 80vw;
+    justify-self: center;
+    border-bottom:solid .01em aliceblue;
+}
+
+footer {
+    border: none;
+    margin-bottom: calc(5px + 3vh);
+}
+
+.profileHeader {
+    display: flex;
+    height:7vh;
+    justify-content: space-between;
+}
+
+.profileImage {
+    height: 13vh;
+}
+
+.strong {
+    color:darkcyan;
+}
