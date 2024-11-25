@@ -1,0 +1,41 @@
+.border {
+    background-color: #1a2a43;
+    color:aliceblue;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-self: center; 
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    padding: 5px;
+    font-size: calc(5px + .5vw);
+}
+
+.heading {
+    padding: 5px;
+    border: solid .05em aliceblue;
+    background-color: #1a2a43;
+    color:aliceblue;
+    min-width: 80vw;
+    max-height: 10vh;
+    display: flex;
+    justify-self: center; 
+    font-size: calc(10px + .5vw);
+}
+
+p {
+    line-height: 1.6;
+}
+
+.icon {
+    width: 6.25%;
+    height: 100%;
+    margin-right: 1vw;
+    border-radius: 10%;
+}
+
+.iconLink {
+    width: calc(10px+1vw);
+    height: calc(10px+1vh);
+}
