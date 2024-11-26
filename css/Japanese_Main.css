@@ -7,29 +7,34 @@
   align-items: center;
   justify-content: center;
   object-fit: contain;
-  margin-bottom: calc(20px + 1.5vh);
+  margin-bottom: calc(20px + 2vh);
 }
 
 .image {
-  width: 80vw;
+  width: 90vw;
   max-height: auto;
   cursor: pointer;
 }
 
 section, header, footer {
-  width: 90vw;
+  width: 99vw;
   margin-bottom: none;
   background-color: #1a2a43;
   justify-self: center;
-  border-bottom:solid .01em aliceblue;
+  border-bottom: solid .01em aliceblue;
 }
 
 header {
   margin-top: calc(20px + 1.5vh);
+  border-top: double .01em aliceblue;
+  border-right: double .01em aliceblue;
+  border-left: double .01em aliceblue;
 }
 
 footer {
-  border: none;
+  border-bottom: double .01em aliceblue;
+  border-right: double .01em aliceblue;
+  border-left: double .01em aliceblue;
   margin-bottom: calc(5px + 3vh);
 }
 
