@@ -33,7 +33,8 @@
 }
 
 .menuImage {
-    width: calc(60px + 12vw);
+    height: 15vh;
+    min-width: calc(60px + 12vw);
     object-fit: contain;
     display: flex;
     justify-self: center;
