@@ -11,7 +11,7 @@
 }
   
 .image {
-    width: 80vw;
+    width: 90vw;
     max-height: auto;
     cursor: pointer;
 }
@@ -26,12 +26,17 @@ section, header, footer {
   
 header {
     margin-top: calc(20px + 1.5vh);
-}
+    border-top: double .01em aliceblue;
+    border-right: double .01em aliceblue;
+    border-left: double .01em aliceblue;
+  }
   
-footer {
-    border: none;
+  footer {
+    border-bottom: double .01em aliceblue;
+    border-right: double .01em aliceblue;
+    border-left: double .01em aliceblue;
     margin-bottom: calc(5px + 3vh);
-}
+  }
   
 .advertise {
     color: aliceblue;
